@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { fetchLiveMatches } from '@/api/sportradar/schedule/fetchLiveMatches';
+import { fetchLiveMatches } from '../sportradar/schedule/fetchLiveMatches';
 import { NextRequest } from 'next/server'; // Type pour une requête Next.js
 
 export async function GET(_: NextRequest): Promise<NextResponse> {
